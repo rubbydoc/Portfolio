@@ -1,21 +1,42 @@
-@font-face {
-    font-family: acorn; 
-    src: url('/assets/font/acorn.woff') format('woff');
-    
-}
+/* 
+#22223b
+#4a4e69 - nav, links
+#9a8c98
+#c9ada7
+#f2e9e4 - background */
 
-
 @font-face {
-    font-family: gt; 
-    src: url('/assets/font/gt.woff') format('woff');
-    
-}
-h1{
     font-family: acorn;
-    font-size: 100px;
+    src: url('/assets/font/acorn.woff') format('woff');
+
 }
 
-p{
+
+@font-face {
     font-family: gt;
-    font-size: 20px;
+    src: url('/assets/font/gt.woff') format('woff');
+
+}
+
+h1 {
+    font-family: acorn;
+    font-size: 120px;
+    /* color: #283747; */
+    color: #22223b;
+    margin: 0;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+p {
+    font-family: gt;
+    color: #4a4e69 ;
+    /* margin: 0; */
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.intro{
+    margin-top: 250px;
 }
