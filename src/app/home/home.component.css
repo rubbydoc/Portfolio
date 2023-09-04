@@ -1,0 +1,21 @@
+@font-face {
+    font-family: acorn; 
+    src: url('/assets/font/acorn.woff') format('woff');
+    
+}
+
+
+@font-face {
+    font-family: gt; 
+    src: url('/assets/font/gt.woff') format('woff');
+    
+}
+h1{
+    font-family: acorn;
+    font-size: 100px;
+}
+
+p{
+    font-family: gt;
+    font-size: 20px;
+}
